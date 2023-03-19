@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" id="korzen">
+
+<head>
+    <meta charset="iso-8859-2">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratorium HTML</title>
+</head>
+
+<body>
+    <h1>Historia Polski</h1>
+    <p>
+        <a href="http://www.onet.pl">Lorem ipsum</a>
+        <img src="img/polska.png" alt="mapa polski">
+        dolor sit amet consectetur adipisicing elit.<br>Sequi obcaecati
+        maiores quas voluptatem, recusandae distinctio dolor expedita est fugit, ratione natus ad cupiditate quis ut.
+        Dignissimos dolorum nostrum pariatur recusandae.
+    </p>
+    <h1>Historia Małopolski</h1>
+    <p id="parSpecjalny">
+        <a href="index2.html">Lorem ipsum</a> <span>dolor sit amet consectetur</span> adipisicing elit. Sequi obcaecati maiores quas
+        voluptatem, recusandae distinctio dolor expedita est fugit, ratione natus ad cupiditate quis ut. Dignissimos
+        dolorum nostrum pariatur recusandae.
+    </p>
+    <h2>Najważniejsze daty</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati maiores quas voluptatem, recusandae
+        distinctio dolor expedita est fugit, ratione natus ad cupiditate quis ut. Dignissimos dolorum nostrum pariatur
+        recusandae.
+    </p>
+    <p>Lista nieuporządkowana UL</p>
+    <ul>
+        <li>
+            Element zielony
+        </li>
+        <ul>
+            <li>
+                Element zielony
+            </li>
+            <li>
+                Element żółty
+            </li>
+        </ul>
+        <li>
+            Element żółty
+        </li>
+    </ul>
+    <p>Lista uporządkowana OL</p>
+    <ol>
+        <li>
+            Pierwsze miejsce
+        </li>
+        <li>
+            Drugie miejsce
+        </li>
+        <li>
+            Trzcie miejsce
+        </li>
+        <ol>
+            <li>
+                Pierwsze miejsce
+            </li>
+            <li>
+                Drugie miejsce
+            </li>
+            <ul>
+                <li>
+                    Element zielony
+                </li>
+                <li>
+                    Element żółty
+                </li>
+            </ul>
+            <li>
+                Trzcie miejsce
+            </li>
+
+        </ol>
+    </ol>
+
+    <h2>Dane statystyczne</h2>
+
+    <table border="1">
+        <caption>Temperatura w miastach</caption>
+        <thead>
+            <tr>
+                <th>
+                    miejsce
+                </th>
+                <th>
+                    temperatura
+                </th>
+                <th>
+                    cisnienie
+                </th>
+                <th>
+                    trąba powietrzna
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    Gdańsk
+                </th>
+                <td rowspan="2" class="danaSrodek">
+                    11
+                </td>
+                <td>
+                    12
+                </td>
+                <td rowspan="2">
+                    N
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Suwałki
+                </th>
+
+                <td rowspan="2">
+                    65
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Katowice
+                </th>
+
+                <td>
+                    13
+                </td>
+
+                <td>
+                    Y
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Dane IMGW 2023</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div>
+        <h1>Formularz</h1>
+        <form method="post" action="https://naszprzyszlyserwer/backend/api/zapisy">
+            <label for="imieEl">Imię</label>
+            <input id="imieEl" name="imie" type="text">
+
+            <label for="kawaEl">Kawa</label>
+            <input id="kawaEl" name="poczestunek" type="checkbox" value="k">
+            <label for="herbataEl">Herbata</label>
+            <input id="herbataEl" name="poczestunek" type="checkbox" value="h">
+
+            <label for="kobietaEl">kobieta</label>
+            <input id="kobietaEl" name="plec" type="radio" value="k">
+            <label for="mezczyznaEl">mezczyzna</label>
+            <input id="mezczyznaEl" name="plec" type="radio" value="m">
+
+            <label for="komentarzeEl">komentarze</label>
+            <textarea id="komentarzeEl" name="komentarze"></textarea>
+
+            <label for="dzieciEl">dzieci</label>
+            <select id="dzieciEl" name="dzieci">
+                <option value="0">Brak</option>
+                <option value="1">Jedno lub wiecej</option>
+            </select>
+
+            <input type="submit" value="Wyslij">
+        </form>
+    </div>
+
+</body>
+
+</html>

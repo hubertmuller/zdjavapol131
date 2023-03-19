@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formularz.css">
+</head>
+
+<body>
+
+    <header class="gornyWiersz">
+        Nazwa firmy
+    </header>
+
+    <footer class="dolnyWiersz">
+        Copyright
+    </footer>
+
+    <menu class="prawaSzpalta">
+        <a href="link">link</a>
+        <a href="link">link</a>
+        <a href="link">link</a>
+        <a href="link">link</a>
+        <a href="link">link</a>
+    </menu>
+
+    <main class="glownaSzpalta">
+        <form class="pierwszy" method="post" action="https://naszprzyszlyserwer/backend/api/zapisy">
+
+            <div>
+                <div class="et">
+                    <label for="imieEl">Imię</label>
+                </div>
+                <div class="da">
+                    <input id="imieEl" name="imie" type="text">
+                </div>
+            </div>
+    
+            <div>
+                <div class="et">
+                    Poczęstunek:
+                </div>
+                <div class="da">
+                    <label for="kawaEl">Kawa</label>
+                    <input id="kawaEl" name="poczestunek" type="checkbox" value="k">
+                    <label for="herbataEl">Herbata</label>
+                    <input id="herbataEl" name="poczestunek" type="checkbox" value="h">
+                </div>
+            </div>
+    
+            <div>
+                <div class="et">
+                    Płeć:
+                </div>
+                <div class="da">
+                    <label for="kobietaEl">kobieta</label>
+                    <input id="kobietaEl" name="plec" type="radio" value="k">
+                    <label for="mezczyznaEl">mezczyzna</label>
+                    <input id="mezczyznaEl" name="plec" type="radio" value="m">
+                </div>
+            </div>
+    
+            <div>
+                <div class="et">
+                    <label for="komentarzeEl">komentarze</label>
+                </div>
+                <div class="da">
+                    <textarea id="komentarzeEl" name="komentarze"></textarea>
+                </div>
+            </div>
+    
+            <div>
+                <div class="et">
+                    <label for="dzieciEl">dzieci</label>
+                </div>
+                <div class="da">
+                    <select id="dzieciEl" name="dzieci">
+                        <option value="0">Brak</option>
+                        <option value="1">Jedno lub wiecej</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div>
+                <div class="et">
+                    
+                </div>
+                <div class="da">
+                    <input type="submit" value="Wyslij">
+                </div>
+            </div>
+        </form>
+
+
+        <form class="siatka">
+
+            <label for="imieEl">Imię</label>
+            <input id="imieEl" name="imie" type="text">
+           
+            <label for="nazwiskoEl">Nazwisko</label>
+            <input id="nazwiskoEl" name="nazwisko" type="text">
+
+            <div>
+                Poczęstunek:
+            </div>
+            <div>
+                <label for="kawaEl">Kawa</label>
+                <input id="kawaEl" name="poczestunek" type="checkbox" value="k">
+                <label for="herbataEl">Herbata</label>
+                <input id="herbataEl" name="poczestunek" type="checkbox" value="h">
+            </div>
+
+
+        </form>
+
+    </main>
+
+    
+    <!--
+    <div class="glownyGrid">
+            <article class="pierwszy">Lorem ipsum dolor 1</article>
+            <article class="szosty">Lorem ipsum dolor 6</article>
+            <article>Lorem ipsum dolor 2</article>
+            <article>Lorem ipsum dolor 3</article>
+            <article>Lorem ipsum dolor 4</article>
+            <article>Lorem ipsum dolor 5</article>
+    </div>  
+    -->
+
+    <script src="program1.js">
+
+    </script>
+</body>
+
+</html>

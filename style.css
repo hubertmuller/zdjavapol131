@@ -1,0 +1,59 @@
+h1 {
+    font-size: 6em;
+    font-weight: normal;
+    color: #107fae;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+[border="1"] {
+    width: 50%;
+}
+
+.danaSrodek {
+    text-align: center;
+}
+
+#parSpecjalny {
+    background-color: rgb(255, 208, 148)
+}
+
+tbody > tr  td.danaSrodek {
+
+}
+
+/*
+p[id="parSpecjalny"] {
+}
+
+
+p#parSpecjalny {
+}
+
+td.danaSrodek {
+}
+
+tbody > tr > td.danaSrodek {
+
+}
+*/
+
+h2 ~ p {
+    background-color: rgb(255,127, 255)
+}
+
+/* gwiazdka - efektywnosc selektora moze spasc */
+tbody tr * {
+    background-color: #006e2c;
+}
+/*
+tbody  tr  th {
+    background-color: #006e2c;
+}
+
+tbody  tr  td {
+    background-color: #006e2c;
+}
+*/
